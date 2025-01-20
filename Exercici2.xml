@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cataleg>
+    <llista_actors>
+        <actor id = "AB12">
+            <nom>Pau</nom>
+            <edat/>
+        </actor>
+
+        <actor id = "CD34">
+            <nom>Jhon</nom>
+            <edat>60</edat>
+        </actor>
+
+        <actor id = "EF56">
+            <nom>Will</nom>
+            <edat>44</edat>
+        </actor>
+    </llista_actors>
+
+    <llista_pelicules>
+        <pelicula id = "AA11">
+            <titol idioma = "eng">HUSH</titol>
+            <director>Zack</director>
+            <any>2000</any>
+            <actors>
+                <actor_ref ref = "AB12"/>
+                <actor_ref ref = "CD34"/>
+            </actors>
+        </pelicula>
+
+        <pelicula id = "BB22">
+            <titol idioma = "eng">HUSH HUSH</titol>
+            <director>Alba</director>
+            <any>2002</any>
+            <actors>
+                <actor_ref ref = "AB12"/>
+                <actor_ref ref = "EF56"/>
+            </actors>
+        </pelicula>
+
+        <pelicula id = "CC33">
+            <titol idioma = "esp">HUSH HUSH HUSH</titol>
+            <director>Noe</director>
+            <any>2017</any>
+            <actors>
+                <actor_ref ref = "AB12"/>
+                <actor_ref ref = "EF56"/>
+            </actors>
+        </pelicula>
+    </llista_pelicules>
+
+    <llista_recomanacions_pelicules>
+        <recomanacio ref="AA11"/>
+        <recomanacio ref="BB22"/>
+        <recomanacio ref="CC33"/>
+    </llista_recomanacions_pelicules>
+
+</cataleg>
