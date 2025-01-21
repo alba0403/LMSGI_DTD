@@ -1,3 +1,4 @@
+<!DOCTYPE cataleg [
 <!ELEMENT cataleg (llista_actors, llista_pelicules, llista_recomanacions_pelicules)>
 <!--llista d'actors-->
 <!ELEMENT llista_actors (actor+)>
@@ -26,3 +27,4 @@
 
 <!--Referència de les IDs de les pel·lícules-->
 <!ATTLIST recomanacio ref IDREF #REQUIRED>
+]>
